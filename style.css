@@ -1,0 +1,86 @@
+body {
+	background-image: url("./images/background.png");
+}
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	font-size: 2em;
+	font-weight: bold;
+}
+p {
+	font-size: 19px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	line-height: 35px;
+}
+.contentrule {
+	border-color: #e0e0e0;
+}
+#profile {
+		width: 110px;
+	}
+/*Navbar Styles */
+.nav.navbar-nav.navbar-right > li > a.linkfont:hover {
+    background-color: #4aaaa5;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	background-color: #4aaaa5;
+	color: white;
+}
+.navbar-default.navbar-brand >li > a:hover {
+	background-color: #4aaaa5;
+}
+@media (min-width: 768px) {
+.container-fluid .navbar-header {
+	margin-left: 100px
+	}
+}
+
+a.linkfont {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #e0e0e0;
+	font-size: 20px;
+	text-decoration: none;
+}
+.navbar-default .navbar-nav li a {
+	color: #e0e0e0
+}
+#bs-example-navbar-collapse-1.collapse.navbar-collapse{
+	background-color: white;
+}
+/*Vertical Divider for Navbar*/
+.navbar .divider-vertical {
+    height: 20px;
+    margin: 15px 9px;
+    border-right: 1px solid #d1d1d1;
+    border-left: 1px solid #d1d1d1;
+}
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
+}
+/*Footer*/
+footer {
+	position: relative;
+	color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	clear: both;
+	background-color: #666666;
+    height: 100px;
+    width: 100%;
+    border-top: 10px solid #4baaa5;
+    line-height: 100px;
+}
