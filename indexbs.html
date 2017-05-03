@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About</title>
 	<meta charset="utf-8">
+	<title>About</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -10,7 +10,7 @@
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-default">
-  <div class="container-fluid">
+  <div class="container" id="headbar">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -57,29 +57,51 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!-- /Navbar -->
-	<div class="col-md-8">
-	   <h2>About Me</h2><br><hr class="contentrule"><br>
-		<img src="./images/port-pic.jpg" width="210px" id="profile">
-		<p class="about">
-			Hi! My name is Nathan Crawford and I want to be your web developer! I have <em>hours</em> of programming experience with both HTML and CSS. I will be able to design a beautiful and responsive front end for your new or growing business. My websites are well-documented so that as your business grows, so too will your website.
-		</p>
-		<p class="about">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lectus purus, viverra ut arcu id, molestie suscipit odio. Suspendisse ornare posuere ipsum ac venenatis. Aenean vel lacinia tortor, a aliquam dui. Cras rhoncus vulputate accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam vehicula ligula elementum sagittis convallis. Curabitur eget aliquam nulla. Vestibulum augue massa, laoreet sit amet sodales ut, sodales et lacus. Aliquam vitae consectetur magna. Aenean egestas augue bibendum nulla gravida, id rhoncus dolor luctus. Phasellus commodo, lorem in vulputate varius, lorem odio consequat diam, eu rutrum est tellus vel ipsum.
-		</p>
-		<p class="about">
-			Nunc rutrum, dolor quis tempus elementum, sapien lacus vulputate enim, eu vestibulum lacus velit et orci. Nullam gravida mauris vitae fermentum eleifend. Fusce aliquet venenatis facilisis. Nunc placerat sagittis varius. Praesent eget magna efficitur, accumsan lorem et, scelerisque libero. Mauris ac leo sed lectus sagittis placerat. Cras mollis eros lectus, non tincidunt purus pulvinar quis. Proin eget euismod sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-		</p>
+<div class="container content-wrapper"></div>
+	<div class="row">
+	  <div class="col-md-6 col-md-offset-1" id="main-content">
+	   		<h2>About Me</h2><hr class="contentrule">
+			<img src="./images/port-pic.jpg" width="210px" id="profile">
+			<p class="about">
+				Hi! My name is Nathan Crawford and I want to be your web developer! I have <em>hours</em> of programming experience with both HTML and CSS. I will be able to design a beautiful and responsive front end for your new or growing business. My websites are well-documented so that as your business grows, so too will your website.
+			</p>
+			<p class="about">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lectus purus, viverra ut arcu id, molestie suscipit odio. Suspendisse ornare posuere ipsum ac venenatis. Aenean vel lacinia tortor, a aliquam dui. Cras rhoncus vulputate accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam vehicula ligula elementum sagittis convallis. Curabitur eget aliquam nulla. Vestibulum augue massa, laoreet sit amet sodales ut, sodales et lacus. Aliquam vitae consectetur magna. Aenean egestas augue bibendum nulla gravida, id rhoncus dolor luctus. Phasellus commodo, lorem in vulputate varius, lorem odio consequat diam, eu rutrum est tellus vel ipsum.
+			</p>
+			<p class="about">
+				Nunc rutrum, dolor quis tempus elementum, sapien lacus vulputate enim, eu vestibulum lacus velit et orci. Nullam gravida mauris vitae fermentum eleifend. Fusce aliquet venenatis facilisis. Nunc placerat sagittis varius. Praesent eget magna efficitur, accumsan lorem et, scelerisque libero. Mauris ac leo sed lectus sagittis placerat. Cras mollis eros lectus, non tincidunt purus pulvinar quis. Proin eget euismod sem. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+			</p>
+	  </div>
+	  			<!-- Connect Box -->
+	  <div class="col-md-3 col-md-offset-1" id="connect">
+	  		<div class="row">
+	  			<div class="col-md-12">
+	  				<h2 id="connectme">Connect with Me<hr></h2>
+	  			</div>
+	  		</div>
+			<div class="row">
+				<div class="col-md-3 connect-links">
+					<a href="https://github.com/ArbutusNate" target="_blank"><img src="./images/gh-icon-dark.png" class="icon"></a>
+				</div>
+				<div class="col-md-3 connect-links">
+					<a href="https://twitter.com/ArbutusNate" target="_blank"><img src="./images/twit-icon.png" class="icon"></a>
+				</div>
+				<div class="col-md-3 connect-links">
+					<a href="http://stackoverflow.com/users/7833943/arbutusnate" target="_blank"><img src="./images/so-icon.png" class="icon"></a>
+				</div>
+				<div class="col-md-3 connect-links">
+					<a href="https://www.linkedin.com/in/nathan-crawford-264229139/"><img src="./images/linked-icon.png" class="icon"></a>
+				</div>
+			</div>
+<!-- 			<div id="connect">
+				<a href="https://github.com/ArbutusNate" target="_blank" class="icon"><img src="./images/gh-icon-dark.png" width="50px"></a>
+				<a href="https://twitter.com/ArbutusNate" target="_blank" class="icon"><img src="./images/twit-icon.png" width="50px"></a>
+				<a href="http://stackoverflow.com/users/7833943/arbutusnate" target="_blank" class="icon"><img src="./images/so-icon.png" width="50px"></a>
+				<a href="https://www.linkedin.com/in/nathan-crawford-264229139/" target="_blank" class="icon"><img src="./images/linked-icon.png" width="50px"></a>
+	   		</div> -->
+	   </div>
 	</div>
-	<div class="col-md-4">
-			<!-- Connect Box -->
-	<div id="connect">
-		<h2 class="connectheader">Connect with Me<hr></h2>
-			<a href="https://github.com/ArbutusNate" target="_blank" class="icon"><img src="./images/gh-icon-dark.png" width="50px"></a>
-			<a href="https://twitter.com/ArbutusNate" target="_blank" class="icon"><img src="./images/twit-icon.png" width="50px"></a>
-			<a href="http://stackoverflow.com/users/7833943/arbutusnate" target="_blank" class="icon"><img src="./images/so-icon.png" width="50px"></a>
-			<a href="https://www.linkedin.com/in/nathan-crawford-264229139/" target="_blank" class="icon"><img src="./images/linked-icon.png" width="50px"></a>
-	</div>
-	</div>
+</div>
 <!-- Footer -->
 <footer>
 	<span> © Nathan Crawford 2017 </span>	

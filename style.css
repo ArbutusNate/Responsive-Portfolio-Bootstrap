@@ -12,20 +12,44 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	line-height: 35px;
+	float: left;
 }
 .contentrule {
 	border-color: #e0e0e0;
 }
+#connectme {
+	font-size: 1.7em;
+}
+
 #profile {
-		width: 110px;
+		width: 135px;
+		float: left;
 	}
+#main-content {
+	border: 1px solid #dddddd;
+	padding: 35px;
+	background-color: #ffffff;
+	float: left;
+	margin-bottom: 50px;
+}
+.icon {
+	width: 45px;
+}
+#connect {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 10px 30px;
+}
 /*Navbar Styles */
 .nav.navbar-nav.navbar-right > li > a.linkfont:hover {
     background-color: #4aaaa5;
     border-radius: 5px;
     color: white;
 }
-
+.navbar-default .navbar-brand:hover {
+	color: white;
+	background-color: #4aaaa5;
+}
 .navbar-default .navbar-brand {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 1.8em;
@@ -33,12 +57,12 @@ p {
 	background-color: #4aaaa5;
 	color: white;
 }
-.navbar-default.navbar-brand >li > a:hover {
+a.navbar-brand:hover {
 	background-color: #4aaaa5;
 }
 @media (min-width: 768px) {
 .container-fluid .navbar-header {
-	margin-left: 100px
+	margin-left: 90px
 	}
 }
 
@@ -52,6 +76,9 @@ a.linkfont {
 	color: #e0e0e0
 }
 #bs-example-navbar-collapse-1.collapse.navbar-collapse{
+	background-color: white;
+}
+#headbar {
 	background-color: white;
 }
 /*Vertical Divider for Navbar*/
