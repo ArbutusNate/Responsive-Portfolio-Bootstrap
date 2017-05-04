@@ -1,3 +1,4 @@
+/* General */
 body {
 	background-image: url("./images/background.png");
 }
@@ -7,6 +8,9 @@ h2 {
 	font-size: 2em;
 	font-weight: bold;
 	text-align: center;
+}
+h3 {
+	margin-left: 15px;
 }
 p {
 	font-size: 19px;
@@ -21,27 +25,17 @@ p {
 	font-size: 1.7em;
 	margin: 11px 7px 0px 4px;
 }
-
+#main-content {
+	border: 1px solid #dddddd;
+	background-color: #ffffff;
+	margin-bottom: 50px;
+}
+/* Profile Page */
 #profile {
 		width: 135px;
 		float: left;
 		padding: 0px 15px 0px 0px;
 	}
-#main-content {
-	border: 1px solid #dddddd;
-	background-color: #ffffff;
-	float: left;
-	margin-bottom: 50px;
-}
-.icon {
-	width: 45px;
-	margin: 0px -5px;
-}
-#ncconnect {
-	background-color: #ffffff;
-	border: 1px solid #dddddd;
-	padding: 10px 30px;
-}
 /* Portfolio Page */
 .port-text {
 	position: relative;
@@ -63,16 +57,17 @@ p {
 	width: 100%;
 	height: 100%;
 }
-
-/*.ncgallery {
-	margin: auto;
-}*/
-/*Navbar Styles */
-.nav.navbar-nav.navbar-right > li > a.linkfont:hover {
-    background-color: #4aaaa5;
-    border-radius: 5px;
-    color: white;
+/* Connect Box */
+.icon {
+	width: 45px;
+	margin: 0px -5px;
 }
+#ncconnect {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 10px 30px;
+}
+/*Navbar Styles */
 .navbar-default .navbar-brand:hover {
 	color: white;
 	background-color: #4aaaa5;
@@ -96,11 +91,70 @@ a.linkfont {
 .navbar-default .navbar-nav li a {
 	color: #b9b8b8
 }
+.nav.navbar-nav.navbar-right > li > a.linkfont:hover {
+    background-color: #4aaaa5;
+    border-radius: 5px;
+    color: white;
+}
+/* Animation */
+/*@keyframes navbuttons {
+    0%   {background-color: white}
+    25%  {background-color:#4aaaa5;}
+    50%  {background-color:#4aaaa5;}
+    75%  {background-color:#4aaaa5;}
+    100% {background-color:#4aaaa5;}
+}*/
 #bs-example-navbar-collapse-1.collapse.navbar-collapse{
 	background-color: white;
 }
+
 #headbar {
 	background-color: white;
+}
+/* Contact Page */
+#contactform {
+	font-size: 18px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+input[type=text] {
+	width: 100%;
+	display: inline-block;
+	max-width: 580px;
+	height: 35px;
+	border: 2px solid #d1d1d1;
+	color: #d1d1d1;
+	padding: 0px 35px;
+}
+input[type=submit] {
+	max-width: 150px;
+	width: 100%;
+	border-radius: 5px;
+    border: 0;
+ 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    color: white;
+    margin-bottom: 15px;
+}
+textarea {
+	width: 100%;
+	height: auto;
+}
+::-webkit-input-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+::-moz-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+:-ms-input-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+:-moz-placeholder {
+  color: #d1d1d1;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 /*Vertical Divider for Navbar*/
 .navbar .divider-vertical {
@@ -133,3 +187,4 @@ footer {
     line-height: 100px;
     margin-top: 30px
 }
+
