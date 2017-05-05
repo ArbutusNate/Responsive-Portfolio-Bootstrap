@@ -79,9 +79,9 @@ p {
 	background-color: #4aaaa5;
 	color: white;
 }
-a.navbar-brand:hover {
+/*a.navbar-brand:hover {
 	background-color: #4aaaa5;
-}
+}*/
 a.linkfont {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #e0e0e0;
